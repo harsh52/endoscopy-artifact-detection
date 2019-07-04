@@ -1,0 +1,13 @@
+__For V2 __
+./darknet detector train cfg/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23
+./darknet detector train cfg/obj.data cfg/yolo-obj.cfg darknet19_448.conv.23 > output2.txt
+
+__For V3__
+./darknet detector train cfg/obj.data cfg/yolo-obj_v3.cfg darknet53.conv.74
+
+for accuracy check:
+./darknet detector map cfg/obj.data cfg/yolo-obj.cfg backup\yolo-obj_7000.weights
+
+for result
+./darknet detector test cfg/obj.data cfg
+/yolo-obj.cfg backup/yolo-obj_2000.weights data/testimage.jpg
