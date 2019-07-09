@@ -28,8 +28,10 @@ Follow jupyter notebook: endoscopy_artifact_detection.ipynb.
 
 #Script_details:
 ---------------------------------
-slice_script.py : extract usefull data from output2 folder such as(iou,map etc)
+slice_script.py : extract usefull data from output2 folder such as(iou,map etc).
+
 process.py: generate train txt file and test txt file.
+
 easy_install_1.py, easy_install_2.py: script to install required dependencies.
 
 
