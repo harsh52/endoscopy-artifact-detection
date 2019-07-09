@@ -24,7 +24,7 @@ more info about dataset: https://arxiv.org/pdf/1905.03209.pdf
 
 #implementation
 -----------------------------------
-Follow jupyter notebook.
+Follow jupyter notebook: endoscopy_artifact_detection.ipynb.
 
 
 
