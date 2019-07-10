@@ -27,11 +27,11 @@ About dataset:
 The training dataset for detection consists in total 2147 annotated framesover all 7 artifact classes (Specularity, Saturation, artifact, contrast, blur, bubbles, instrument)
 more info about dataset: https://arxiv.org/pdf/1905.03209.pdf
 
-#implementation
+# implementation
 -----------------------------------
 Follow jupyter notebook: endoscopy_artifact_detection.ipynb.
 
-#Script_details:
+# Script_details:
 ---------------------------------
 slice_script.py : extract usefull data from output2 folder such as(iou,map etc).
 
