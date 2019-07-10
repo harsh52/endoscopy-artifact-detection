@@ -1,3 +1,8 @@
+Author: Harsh Kumar
+
+Date of completion: 03/08/2019
+
+
 #Overview
 -------------------------------
 It was my Summer internship work to detect different type of artifact in endoscopy images, it was based on EAD2019 challenge.
