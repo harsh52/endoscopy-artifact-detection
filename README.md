@@ -3,7 +3,7 @@ Author: Harsh Kumar
 Date of completion: 03/08/2019
 
 
-#Overview
+# Overview
 -------------------------------
 It was my Summer internship work to detect different type of artifact in endoscopy images, it was based on EAD2019 challenge.
 
@@ -12,13 +12,13 @@ My task inculded:
 2.Implement and analyse the result and compare with the research papers.
 3.Analyse the matrix such and iou,mAP and loss.
 
-#Method
+# Method
 ---------------------------------
 To complete my task i have used YOLOv2 because it's iou,mAP was more as suggested in the research paper.
 link: https://arxiv.org/pdf/1904.07073.pdf
 To implement object detection model i have darknet framwork for object detection which is written in c.
 
-#Dataset
+# Dataset
 -------------------------------------
 Dataset was provided by my mentors which can be downoad from my google drive 
 link: https://drive.google.com/open?id=1IFliSsmF_Srr0M5psR_XgF0uUK0Hdr5Y
