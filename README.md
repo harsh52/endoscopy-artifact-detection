@@ -7,7 +7,8 @@ Date of completion: 03/08/2019
 -------------------------------
 It was my Summer internship work to detect different type of artifact in endoscopy images, it was based on EAD2019 challenge.
 
-My task inculded:
+### My task inculded:
+-------------------------------
 1.Read several research paper and analyse different type of object detection algorithms eg. YOLO, fastRcnn, Rcnn etc.
 2.Implement and analyse the result and compare with the research papers.
 3.Analyse the matrix such and iou,mAP and loss.
