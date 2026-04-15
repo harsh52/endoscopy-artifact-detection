@@ -1,51 +1,24 @@
-Author: Harsh Kumar
+# Endoscopy Artifact Detection
 
-Date of completion: 03/08/2019
+Detecting artifacts in endoscopy images using YOLOv2 — built during a summer internship based on the [EAD2019 challenge](https://arxiv.org/pdf/1905.03209.pdf).
 
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
- 
-# Overview
--------------------------------
-It was my Summer internship work to detect different type of artifact in endoscopy images, it was based on EAD2019 challenge.
+## What It Does
 
-### My task inculded:
--------------------------------
-1. Read several research paper and analyse different type of object detection algorithms eg. YOLO, fastRcnn, Rcnn etc.
+Detects 7 types of artifacts in endoscopy frames: specularity, saturation, artifact, contrast, blur, bubbles, and instruments. Uses YOLOv2 via the Darknet framework for real-time object detection.
 
-2. Implement and analyse the result and compare with the research papers.
+## Why YOLOv2
 
-3. Analyse the matrix such and iou,mAP and loss.
+Compared multiple architectures (YOLO, Fast R-CNN, R-CNN). YOLOv2 had the best IoU and mAP scores, consistent with [this paper](https://arxiv.org/pdf/1904.07073.pdf).
 
-# Method
----------------------------------
-To complete my task i have used YOLOv2 because it's iou,mAP was more as suggested in the research paper.
-link: https://arxiv.org/pdf/1904.07073.pdf
-To implement object detection model i have darknet framwork for object detection which is written in c.
+## How to Run
 
-# Dataset
--------------------------------------
-Dataset was provided by my mentors which can be downoad from my google drive 
-link: https://drive.google.com/open?id=1IFliSsmF_Srr0M5psR_XgF0uUK0Hdr5Y
+```bash
+# Follow the Jupyter notebook
+endoscopy_artifact_detection.ipynb
+```
 
-About dataset:
-The training dataset for detection consists in total 2147 annotated framesover all 7 artifact classes (Specularity, Saturation, artifact, contrast, blur, bubbles, instrument)
-more info about dataset: https://arxiv.org/pdf/1905.03209.pdf
+Download the dataset from [Google Drive](https://drive.google.com/open?id=1IFliSsmF_Srr0M5psR_XgF0uUK0Hdr5Y) (2,147 annotated frames).
 
-# implementation
------------------------------------
-Follow jupyter notebook: endoscopy_artifact_detection.ipynb.
+## Tech
 
-# Python_Script_details:
----------------------------------
-"slice_script.py" : extract usefull data from output2 folder such as(iou,map etc).
-
-"process.py": generate train txt file and test txt file.
-
-"easy_install_1.py", "easy_install_2.py": script to install required dependencies.
-
-
-
-
-
-
-
+Python, YOLOv2, Darknet (C), OpenCV, Jupyter
